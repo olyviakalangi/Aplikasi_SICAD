@@ -1,0 +1,41 @@
+module.exports = {
+  content: [],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#102959",
+        secondary: "#8CBBF1",
+        tertiary: "#A9BFAD",
+        primaryLight: "#6D90D3",
+        danger: "#FF4D4D",
+        info: "#3888FF",
+        // news
+        primaryFont: "#5E677D",
+        yPastel: "#DCD964",
+        placeholder: "#9D9FCF",
+        grayCustom: "#CCCCCC",
+        bgCustom: "#A2D17D",
+        bgLightGreen: "#E3E4FF",
+        success: "#0FB900",
+        error: "#FF0000",
+        warning: "#F3A100",
+      },
+      fontSize: {
+        xss: ".6rem",
+        xs: ".75rem",
+        sm: ".875rem",
+        tiny: ".875rem",
+        base: "1rem",
+        lg: "1.125rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "4rem",
+        "7xl": "5rem",
+      },
+    },
+  },
+  plugins: [],
+};
