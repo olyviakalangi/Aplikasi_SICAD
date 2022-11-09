@@ -3,6 +3,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 import InstructionScreen from "../screens/InstructionScreen";
 import NotificationScreen from "../screens/notification/NotificationScreen";
+import KeteranganLainyaScreen from "../screens/permohonansurat/KeteranganLainyaScreen";
+import PengajuanBeasiswaScreen from "../screens/permohonansurat/PengajuanBeasiswaScreen";
 import PermohonanBoroScreen from "../screens/permohonansurat/PermohonanBoroScreen";
 import PermohonanDomisiliScreen from "../screens/permohonansurat/PermohonanDomisiliScreen";
 import PermohonanHubunganKeluargaScreen from "../screens/permohonansurat/PermohonanHubunganKeluargaScreen";
@@ -155,6 +157,11 @@ export default function UserStack() {
         <Stack.Screen
           name="PermohonanKematianScreen"
           component={PermohonanKematianScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="KeteranganLainyaScreen"
+          component={KeteranganLainyaScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

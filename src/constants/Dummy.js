@@ -541,20 +541,69 @@ export const AllSurat = [
       },
     ],
   },
+  {
+    id: "18",
+    name: "Surat Pengajuan Beasiswa",
+    slug: "SuratPengajuanBeasiswa",
+    type: "Surat Keterangan",
+    icon: Icons.SuratKKOptions,
+    screen: "PengajuanBeasiswaScreen",
+    syarat: [
+      {
+        id: "1",
+        name: "Memiliki Kartu Keluarga (KK)",
+      },
+      {
+        id: "2",
+        name: "Memiliki Kartu Tanda Penduduk (KTP)",
+      },
+      {
+        id: "3",
+        name: "Memiliki surat pengantar RT/RW",
+      },
+    ],
+  },
+  {
+    id: "19",
+    name: "Surat Keterangan Lainya",
+    slug: "SuratKeteranganLainya",
+    type: "Surat Keterangan",
+    icon: Icons.SuratKKOptions,
+    screen: "KeteranganLainyaScreen",
+    syarat: [
+      {
+        id: "1",
+        name: "Memiliki Kartu Keluarga (KK)",
+      },
+      {
+        id: "2",
+        name: "Memiliki Kartu Tanda Penduduk (KTP)",
+      },
+      {
+        id: "3",
+        name: "Memiliki surat pengantar RT/RW",
+      },
+    ],
+  },
 ];
 export const AllSuratPribadi = [
   AllSurat[0],
-  AllSurat[1],
+  // AllSurat[1],
   AllSurat[3],
-  AllSurat[4],
+  // AllSurat[4],
+  AllSurat[17],
 ];
-export const AllSuratPernyataanNikah = [AllSurat[6], AllSurat[7]];
+export const AllSuratPernyataanNikah = [
+  AllSurat[6],
+  // AllSurat[7]
+];
 export const AllSuratKeterangan = [
-  AllSurat[9],
+  // AllSurat[9],
   AllSurat[10],
-  AllSurat[11],
+  // AllSurat[11],
   AllSurat[14],
   AllSurat[16],
+  AllSurat[18],
 ];
 export const searchSurat = (keyword) => {
   const result = AllSurat.filter((item) => {
@@ -615,25 +664,27 @@ export const optionRt = [
   { id: 3, label: "3" },
   { id: 4, label: "4" },
   { id: 5, label: "5" },
-  { id: 6, label: "6" },
-  { id: 7, label: "7" },
-  { id: 8, label: "8" },
-  { id: 9, label: "9" },
-  { id: 10, label: "10" },
-  { id: 11, label: "11" },
-  { id: 12, label: "12" },
-  { id: 13, label: "13" },
-  { id: 14, label: "14" },
-  { id: 15, label: "15" },
-  { id: 16, label: "16" },
-  { id: 17, label: "17" },
-  { id: 18, label: "18" },
+  // { id: 6, label: "6" },
+  // // { id: 7, label: "7" },
+  // // { id: 8, label: "8" },
+  // // { id: 9, label: "9" },
+  // // { id: 10, label: "10" },
+  // // { id: 11, label: "11" },
+  // // { id: 12, label: "12" },
+  // // { id: 13, label: "13" },
+  // // { id: 14, label: "14" },
+  // // { id: 15, label: "15" },
+  // // { id: 16, label: "16" },
+  // // { id: 17, label: "17" },
+  // // { id: 18, label: "18" },
 ];
 export const optionRw = [
   { id: 1, label: "1" },
   { id: 2, label: "2" },
   { id: 3, label: "3" },
   { id: 4, label: "4" },
+  { id: 5, label: "5" },
+  { id: 6, label: "6" },
 ];
 export const programKredit = [
   {
