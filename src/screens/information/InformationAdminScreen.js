@@ -17,14 +17,14 @@ const InformationAdminScreen = () => {
   const Contact = [
     {
       Image: Icons.ContactAdmin1,
-      name: "Admin 1 - Mas Pipit:",
-      desc: "+6281249884216",
+      name: "Admin 1 - Mas Wildan:",
+      desc: "+6285655888891",
     },
-    {
-      Image: Icons.ContactAdmin2,
-      name: "Admin 2 - Mba Oliv:",
-      desc: "+6282132513532",
-    },
+    // {
+    //   Image: Icons.ContactAdmin2,
+    //   name: "Admin 2 - Mba Oliv:",
+    //   desc: "+6282132513532",
+    // },
     {
       Image: Icons.ContactEmail,
       name: "balaidesangadiluwih@gmail.com",
